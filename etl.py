@@ -30,7 +30,7 @@ def main():
 
     conn.commit()
 
-    print("3. ANALYZE: Extracting business insights (Pandas)...")
+    print("3. ANALYZE: Extracting business insights...")
     df = pd.read_sql_query("SELECT * FROM products", conn)
     
     print("\n--- QUICK BUSINESS REPORT ---")
