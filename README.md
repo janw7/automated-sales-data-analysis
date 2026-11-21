@@ -17,4 +17,4 @@ This project demonstrates a fully automated pipeline that:
 
 ## How to Run
 1. Install required packages: `pip install requests pandas`
-2. Run the script: `python etl_pipeline.py`
+2. Run the script: `python etl.py`
